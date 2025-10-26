@@ -5,7 +5,7 @@ name: CI/CD Pipeline for Node.js App
 # Triggers the workflow on a push event to the main branch [cite: 26]
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-push:
